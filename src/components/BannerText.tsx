@@ -23,8 +23,7 @@ const BannerText = ({ title }: Props) => {
           transition={{ duration: 0.6 }}
           className="text-lg text-slate-100"
         >
-          Stock up on sportswear and limited edition collections on our <br />
-          awesome mid-season sale.
+          A creative journey where colors,imagination,and emotional comes alive and canvas
         </motion.p>
         <motion.div
           initial={{ y: 50, opacity: 0 }}

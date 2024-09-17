@@ -7,8 +7,8 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    template: "shopping_mart",
-    default: "Shopping Mart - A place for all!",
+    template: "Art with jyoti",
+    default: "Art with jyoti",
   },
 };
 

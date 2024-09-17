@@ -45,28 +45,34 @@ const Banner = () => {
       <Slider {...settings}>
         <div className="w-full h-full relative">
           <Image
-            src={bannerone}
+            src="/j3.png"
+            width={1000}
+            height={1000}
             alt="bannerone"
-            className="w-full h-full relative"
-            priority
+            className="flex items-end w-[100%] h-[100vh] object-cover"
+            
           />
-          <BannerText title="Outware Picks" />
+          <BannerText title="The Jyoti Aesthetic" />
         </div>
         <div className="w-full h-full relative">
           <Image
-            src={bannertwo}
+            src="/j5.png"
+            width={1000}
+            height={1000}
             alt="bannertwo"
-            className="w-full h-full relative"
+            className="flex items-end w-[100%] h-[100vh] "
           />
           <BannerText title="Seasonal Offers" />
         </div>
         <div className="w-full h-full relative">
           <Image
-            src={bannerthree}
+             src="/j6.png"
+             width={1000}
+             height={1000}
             alt="bannerthree"
-            className="w-full h-full relative"
+            className="flex items-end w-[100%] h-[100vh]"
           />
-          <BannerText title="Best for men" />
+          <BannerText title="Best of art" />
         </div>
       </Slider>
       <div className="absolute w-full h-44 bg-gradient-to-t from-gray-100 to-transparent bottom-0 left-0 z-10" />

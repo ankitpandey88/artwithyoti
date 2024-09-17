@@ -5,6 +5,7 @@ import {
   BsLinkedin,
   BsFacebook,
   BsReddit,
+  BsInstagram
 } from "react-icons/bs";
 import payment from "@/images/payment.png";
 import Container from "./Container";
@@ -19,37 +20,27 @@ const Footer = () => {
         <div className="flex flex-col gap-y-4">
           <Logo />
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa in
-            sint incidunt, minima quos voluptates, nobis autem laborum earum est
-            pariatur aperiam. Delectus consectetur maxime quidem veniam,
-            corporis.
+          Discover a collection of handcrafted paintings and sketches, blending creativity and precision to bring your artistic vision to life.
           </p>
           <div className="flex items-center gap-x-4">
-            <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+            <a href="https://www.youtbnm,ube.com/@reactjsBD" target="_blank">
               <span className="socialLink">
                 <BsYoutube />
               </span>
             </a>
-            <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+            <a href="https://www.instagram.com/art_with_jyoti00?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
               <span className="socialLink">
-                <BsGithub />
+                <BsInstagram />
               </span>
             </a>
-            <a href="https://www.youtube.com/@reactjsBD" target="_blank">
-              <span className="socialLink">
-                <BsLinkedin />
-              </span>
-            </a>
-            <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+           
+           
+            <a href="https://www.ybnm,outube.com/@reactjsBD" target="_blank">
               <span className="socialLink">
                 <BsFacebook />
               </span>
             </a>
-            <a href="https://www.youtube.com/@reactjsBD" target="_blank">
-              <span className="socialLink">
-                <BsReddit />
-              </span>
-            </a>
+           
           </div>
         </div>
         <div>
@@ -57,25 +48,24 @@ const Footer = () => {
           <ul className="text-sm font-light mt-2 flex flex-col gap-y-2">
             <li className="flex flex-col">
               <span className="text-slate hover:text-orange-600 cursor-pointer duration-200">
-                Where Music Is Headed Next
+                Sktech of Shree Ram ji
               </span>
               <span className="text-orange-600">January 31, 2022</span>
             </li>
             <li className="flex flex-col">
               <span className="text-slate hover:text-orange-600 cursor-pointer duration-200">
-                Where Music Is Headed Next
+              Sktech of Shree  Krishna ji              </span>
+              <span className="text-orange-600">January 31, 2022</span>
+            </li>
+            <li className="flex flex-col">
+              <span className="text-slate hover:text-orange-600 cursor-pointer duration-200">
+                Painting of jyoti
               </span>
               <span className="text-orange-600">January 31, 2022</span>
             </li>
             <li className="flex flex-col">
               <span className="text-slate hover:text-orange-600 cursor-pointer duration-200">
-                Where Music Is Headed Next
-              </span>
-              <span className="text-orange-600">January 31, 2022</span>
-            </li>
-            <li className="flex flex-col">
-              <span className="text-slate hover:text-orange-600 cursor-pointer duration-200">
-                Where Music Is Headed Next
+                Creaft creations
               </span>
               <span className="text-orange-600">January 31, 2022</span>
             </li>
